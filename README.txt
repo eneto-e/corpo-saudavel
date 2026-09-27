@@ -1,16 +1,17 @@
-# #CorpoSaudavel — PWA
+# #CorpoSaudavel — Versão 1.0
 
-Esta pasta contém uma aplicação web instalável para Android/iPhone.
+Aplicação web/PWA de acompanhamento pessoal.
 
-## Instalação
-1. Coloque estes ficheiros num alojamento HTTPS (por exemplo, GitHub Pages, Netlify ou Vercel).
-2. Abra o endereço HTTPS no Chrome do Android.
-3. Escolha "Adicionar ao ecrã inicial" / "Instalar aplicação".
-4. A aplicação abre em modo autónomo, como uma app.
+Inclui:
+- dashboard e progresso da meta;
+- peso, cintura, sono, água, exercício e passos;
+- hábitos diários;
+- histórico e gráfico;
+- objetivos personalizáveis;
+- exportação/importação de backup JSON;
+- eliminação dos dados locais;
+- aviso de uso não médico;
+- política de privacidade inicial.
 
-## Dados
-Os registos são guardados localmente no navegador/dispositivo através de localStorage.
-Faça cópias/exportações se quiser conservar os dados ao trocar de dispositivo.
-
-## Meta inicial
-91 kg → 84 kg. Esta é uma primeira etapa; a meta pode ser revista posteriormente.
+Publicação Android:
+A PWA pode ser empacotada como aplicação Android e publicada como AAB. Para novas apps enviadas ao Google Play a partir de 31/08/2026, o target API deve ser Android 16 / API 36 ou superior.
